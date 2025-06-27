@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fff;
+
 }
 
 .primary-btn {
@@ -22,9 +23,22 @@ body {
     border: none;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
+.pr128 {
+    padding-right: 128px;
+}
 
+.p130 {
+    padding: 130px 0;
+}
 
+.text-center {
+    text-align: center;
+}
 
 
 /* Hero Style  */
@@ -57,4 +71,53 @@ body {
     line-height: 26px;
     padding: 20px 0 24px 0;
     margin-bottom: 30px;
+}
+
+/* Failure Area Start  */
+.failure {
+    display: flex;
+    /* padding: 130px 0; */
+
+}
+
+.failure img {
+    object-fit: cover;
+
+
+}
+
+.failure-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+.section-title {
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+
+}
+
+.failure-content p {
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 25px 0;
+}
+
+.failure-list li {
+    list-style: none;
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.failure-list li i {
+    color: #F15B22;
+    margin-right: 10px;
 }
