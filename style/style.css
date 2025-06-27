@@ -40,6 +40,13 @@ main {
     text-align: center;
 }
 
+.pb50 {
+    padding-bottom: 50px;
+}
+
+.mb130 {
+    margin-bottom: 130px;
+}
 
 /* Hero Style  */
 .hero-area {
@@ -120,4 +127,14 @@ main {
 .failure-list li i {
     color: #F15B22;
     margin-right: 10px;
+}
+
+/* Plan Area Start  */
+.plan-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-plan img {
+    padding-bottom: 20px;
 }
